@@ -23,7 +23,7 @@ Built using Java and JavaFX, this app aims to enhance the crafting experience by
 ## Screenshots
 
 ### Main Window  
-![Main Window](/Users/HP/Downloads/KnittingPlanner/docs/screenshots/main_screen.png)  
+![Main Window](docs/screenshots/main_screen.png)  
 _The main interface of the “What Should I Make?” app, providing an overview of the DIY suggestion platform._
 
 ### Project Suggestion  
