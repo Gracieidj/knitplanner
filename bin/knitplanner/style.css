@@ -1,0 +1,67 @@
+/* Base style for all ComboBoxes */
+.combo-box {
+    -fx-background-color: #fce9db; /* light peach */
+    -fx-font-weight: bold;
+    -fx-border-color: #c99789; /* medium tone border */
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+
+    /* Increase height & font size for readability */
+    -fx-pref-height: 35px;
+    -fx-font-size: 14px;
+    -fx-padding: 4 10 4 10; /* vertical and horizontal padding */
+    -fx-min-width: 160px;   /* slightly narrower for better fit */
+    -fx-pref-width: 160px;
+}
+
+/* Dropdown list cells text */
+.combo-box .list-cell {
+    -fx-text-fill: #4b3832; /* dark brown */
+    -fx-background-color: #ffe9dc; /* very light peach */
+    -fx-font-size: 14px;
+    -fx-padding: 6 10 6 10;
+}
+
+/* Editable text field inside ComboBox */
+.combo-box .text-field {
+    -fx-text-fill: #4b3832; /* dark brown */
+    -fx-background-color: transparent;
+    -fx-font-size: 14px;
+}
+
+/* Prompt text (placeholder) color */
+.combo-box .text-field:empty {
+    -fx-prompt-text-fill: #dfa290; /* mid peach tone */
+}
+
+/* Make all buttons uniform size and styling */
+.styled-button {
+    -fx-background-color: #c99789; /* medium peach */
+    -fx-text-fill: #4b3832; /* dark brown */
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+
+    /* Uniform sizing */
+    -fx-min-width: 160px;
+    -fx-pref-width: 160px;
+    -fx-min-height: 35px;
+    -fx-pref-height: 35px;
+
+    -fx-font-size: 14px;
+    -fx-padding: 6px 20px;
+    -fx-cursor: hand;
+}
+
+/* Hover effect for buttons */
+.styled-button:hover {
+    -fx-background-color: #dfa290; /* lighter peach */
+}
+
+/* ListView background */
+.project-list-view {
+    -fx-control-inner-background: #ffe9dc; /* very light peach */
+    -fx-text-fill: #4b3832; /* dark brown */
+    -fx-border-color: #dfa290;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+}

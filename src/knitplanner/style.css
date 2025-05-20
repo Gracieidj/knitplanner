@@ -1,0 +1,71 @@
+/* Base style for all ComboBoxes */
+.combo-box {
+    -fx-background-color: #fce9db; /* light peach background for a warm, soft look */
+    -fx-font-weight: bold;          /* bold font for better readability */
+    -fx-border-color: #c99789;      /* medium tone peach border for subtle emphasis */
+    -fx-border-radius: 4;           /* rounded corners for smooth edges */
+    -fx-background-radius: 4;       /* ensure background corners match border radius */
+
+    /* Increase height & font size for better readability and touch target size */
+    -fx-pref-height: 35px;
+    -fx-font-size: 14px;
+
+    /* Padding inside the ComboBox content: vertical 4px, horizontal 10px */
+    -fx-padding: 4 10 4 10;
+
+    /* Set a fixed minimum and preferred width to keep consistent sizing */
+    -fx-min-width: 160px;
+    -fx-pref-width: 160px;
+}
+
+/* Style for the dropdown list items (cells) inside the ComboBox */
+.combo-box .list-cell {
+    -fx-text-fill: #4b3832;         /* dark brown text for good contrast */
+    -fx-background-color: #ffe9dc;  /* very light peach background for dropdown items */
+    -fx-font-size: 14px;             /* consistent font size with ComboBox */
+    -fx-padding: 6 10 6 10;          /* vertical and horizontal padding for list items */
+}
+
+/* Style for the editable text field inside ComboBox (when editable) */
+.combo-box .text-field {
+    -fx-text-fill: #4b3832;          /* dark brown text */
+    -fx-background-color: transparent; /* transparent so it inherits ComboBox background */
+    -fx-font-size: 14px;             /* consistent font size */
+}
+
+/* Style for the prompt text (placeholder) inside the ComboBox text field when empty */
+.combo-box .text-field:empty {
+    -fx-prompt-text-fill: #dfa290;   /* mid peach tone for subtle placeholder text */
+}
+
+/* Style for buttons with uniform size and color */
+.styled-button {
+    -fx-background-color: #c99789;   /* medium peach background for buttons */
+    -fx-text-fill: #4b3832;           /* dark brown text for contrast */
+    -fx-font-weight: bold;            /* bold text for emphasis */
+    -fx-background-radius: 6;         /* rounded corners for softer button edges */
+
+    /* Fixed size to ensure buttons are consistent */
+    -fx-min-width: 160px;
+    -fx-pref-width: 160px;
+    -fx-min-height: 35px;
+    -fx-pref-height: 35px;
+
+    -fx-font-size: 14px;              /* readable font size */
+    -fx-padding: 6px 20px;            /* padding inside button for balanced spacing */
+    -fx-cursor: hand;                 /* cursor changes to hand pointer on hover */
+}
+
+/* Hover effect to lighten button background on mouse over */
+.styled-button:hover {
+    -fx-background-color: #dfa290;   /* lighter peach background on hover */
+}
+
+/* Style for ListView containing project items */
+.project-list-view {
+    -fx-control-inner-background: #ffe9dc; /* very light peach background for list area */
+    -fx-text-fill: #4b3832;                  /* dark brown text color */
+    -fx-border-color: #dfa290;               /* mid peach border for subtle framing */
+    -fx-border-radius: 4;                    /* rounded corners to match theme */
+    -fx-background-radius: 4;                /* background radius to match border radius */
+}
