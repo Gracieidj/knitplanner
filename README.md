@@ -40,8 +40,7 @@ _App integration fetching real-time weather data to enhance project suggestions.
 
 ### Project Creation  
 ![Project Creation 1](docs/screenshots/projectcreation.png)  
-![Project Creation 2](docs/screenshots/projectcreation2.png)
-  
+![Project Creation 2](docs/screenshots/projectcreation2.png)  
 _Interface for saving new knitting or crochet projects with editable details._
 
 ---
